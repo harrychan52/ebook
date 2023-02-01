@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .js,.ts,.vue --ignore-path .eslintignore .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue --ignore-path .eslintignore ."
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.3",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/i18n": "8.0.0-beta.9",
+    "@types/node": "^18.11.18",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nuxt": "^3.1.1",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.3.0",
+    "sass": "^1.55.0"
+  }
+}
